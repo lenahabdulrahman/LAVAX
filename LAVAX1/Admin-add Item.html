@@ -1,0 +1,84 @@
+<!--Reema Almobarak
+Razan Aboali
+Leena Alghamdi
+Nouf Alghamdi
+Rayanh Alyami
+Jumana Aleleyo
+Lenah Al-Helal-->
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CREATE NEW ITEM</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="simplejava.js"></script>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["itemtitle"].value;
+  if (x == "") {
+    alert("Please fill out this form");
+    return false;
+  }
+}
+</script>
+    </head>
+    <body>  
+        <div class="main">
+			<header>
+				<div class="logo"> <a href="Admin.php">
+					<img src="PHOTO/Logo.jpeg" width="130" /> </a>
+					<h4> <a href="Admin.php"> Home </a> </h4>
+				</div>
+                 <div class="welcome-user">Welcome: Admin <a href="logout.php"> [Logout]</a></div>
+				<div class="search">
+				
+				<form action="Admin.php" method="post">
+				<input  type="submit" class="search-button" value="Search" name="ser"> <input type="text" placeholder="Search the Product ID" name="search" class="search-input"></form>
+                </div></header>
+           <h2><center>ADD NEW ITEM</center></h2>
+        <br>
+        <div class="body">
+            <div class="empty">
+        <br>
+        <br>
+		
+		
+				<form name="myForm" method="post" action="AdminaddItem.php" onSubmit="return validateForm()" style="text-align:center" enctype="multipart/form-data">
+					<label class="input-style">Item title:
+					<input  class="format" name="itemtitle" type="text" size="25" required>
+					</label>
+					<br><br>
+					<label class="input-style">Item Price:
+					<input  class="format" name="itemprice" type="text" size="25" required>
+					</label>
+					<br><br>
+					<label class="input-style">Item Stock:
+					<input  class="format" name="itemstock"  type="text" size="25" required>
+					</label>
+					<br><br>
+					<label class="input-style"> Description:
+					<input  class="format" name="itemdes" type="text" required>
+					</label>
+					<br><br>
+					<label class="input-style">Item Picture:
+					<input  class="format" name="image" type="file" required>
+					</label>
+					<br><br>
+					<input style="height: 40px;font-size:14px;" class="button" type="reset" value="Reset">
+					<input style="height: 40px;font-size:14px;"class="button" type="submit" name="Create" value="Create">
+					<br><br>
+				</form>
+			</div>
+		</div>
+       <footer>
+			<p>All rights reserved.</p>
+			<div class="social-icons">
+				<img class="sicon" src="PHOTO/icons/twitter.png"> 
+				<img class="sicon" src="PHOTO/icons/facebook.png"> 
+				<img class="sicon" src="PHOTO/icons/instagram.png"> 
+				<img class="sicon" src="PHOTO/icons/youtube.png"> 
+			</div>
+		</footer>
+    </body>
+</html>
