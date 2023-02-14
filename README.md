@@ -11,7 +11,8 @@ A dummy website using HTML, CSS, PHP and JavaScript.  Lavax is user-friendly web
   - [Inspiration](#inspiration)
 
 ## Screenshots
-Some screenshots for the website
+Some screenshots for the website.
+
 ![Example screenshot](ex1.jpg)
 
 ![Example screenshot](ex2.jpg)
