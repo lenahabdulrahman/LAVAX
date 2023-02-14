@@ -1,0 +1,291 @@
+          body{font-family:monospace,sans-serif, fantasy;
+                 color: black;
+                 background-color: #F7F7F7;
+                }
+             h2{
+                font-family: fantasy, URW Chancery L,Blippo, Apple Chancery, cursive;
+                 color:#460D63;
+                font-size: 24px;
+                 padding: 30px;
+                font-weight: lighter;
+                 border-style: double solid ;
+                 border-color: #692F86;
+                  text-align: center;
+                 margin: auto;            
+               }
+p.contact{
+           
+                 color:#FFFF;
+                font-size: 14px;
+                font-weight: bold;
+  
+}
+             	.main{
+				padding-right: 15px;
+				padding-left: 15px;
+				margin-top: 15px;
+				padding-bottom: 15px;
+			}
+			.logo{
+				width: 100%;
+				text-align: center;
+			}
+			.search{
+				position: absolute;
+				right: 25px;
+				top: 160px;
+			}
+			.search-button {
+				padding: 5px;
+				background: #e9e2ea;
+				border: 1px solid #b2a1bb;
+				color: #7d6c86;
+			}
+			.search-input{
+			    padding: 5px;
+				border: 1px solid #b2a1bb;
+			}
+			.cart{
+				width: 15%;
+				text-align: right;
+			}
+			.cart-icon {
+				border: 0;
+				width: 40px;
+				padding: 5px;
+				background: #e9e2ea;
+			}
+			.empty {
+
+				background: #9F95A4;
+                color: white;
+			}
+			footer {
+				text-align: center;
+				margin-bottom:5%;
+			}
+            p.p{
+                font-family:URW Chancery L, cursive		;
+                color:#8918C2;
+                font-size: 29px;
+                 font-weight: lighter;
+                border-color: #692F86;
+                text-align: center;  
+                letter-spacing: 2px;  
+                
+
+            }
+            p.P{ font-family:fantasy,Blippo;
+                	
+                color:white;
+                font-size: 20px;
+                font-weight: lighter;
+                border-color: #692F86;
+                text-align: center;
+                letter-spacing: 3px;  
+                word-spacing: 5px;
+                font-size: 14px;
+            }    
+            
+            input.button {padding: 5px;
+				background: #e9e0ea;
+				border: 1px solid #b2a1bb;
+				color: #7d6c86;
+            margin: 5px 15px; 
+                height: auto; 
+                width: 90px; 
+                font-size: 17px;}  
+    
+			.backimg {
+				background-image: url(PHOTO/Lavax.jpg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 400px;
+				width: 100%;
+				padding-top: 10%;
+				margin-top: 15px;
+			}
+.backimg .text {
+				font-size: 60pt;
+				text-align: center;
+				color: white;}
+         h1 {
+                font-size: 45px;
+            }
+            
+         .button {width: 200px;
+            height: 150px;
+        font-size: 40px;}
+    .title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+     border-bottom: 1px solid #E1E8EE;
+}
+            
+            button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+            .buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+            .delete-btn {
+  display: inline-block;
+  cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url("delete-icn.svg") no-repeat ;
+position: relative;right: 3em;
+
+}
+
+			.shopping-cart {
+  width: 750px;
+  height:auto;
+  margin: auto;
+  background: #9F95A4;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+  }
+            
+                
+            
+            .total-checkout {
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  position: relative; top: 10em; left: 31em;
+}
+  .total-price {
+  width: 90px;
+  height: 30px;
+  font-size: 16px;
+  color: black;
+position: relative; top: 1.85em; 
+}
+            input.number{
+                height: 30px;
+                width: 70px;
+                position: relative; top: 2.7em;
+                position: relative;right: 0em;
+            }
+            input.radio{
+                position: relative; top: 19em; 
+            }
+    .numInput {
+	    width: 30px;
+		height: 30px;
+		text-align: center;
+		border: 0;
+		background-color: #fff;
+	}
+
+   nav {font-family: Snell Roundhand, cursive;
+                font-size: 18px;
+                font-weight: bold;
+                color: white; 
+                border: 2px solid #9F95A4 ; text-align: center ;width: 20em ;
+                background-color: #9F95A4 ; top: 30px; position:static;}
+            
+            nav ul {display:contents; 
+                list-style: none;
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                margin-right: 60px;
+                margin-left: 50px}
+            
+            nav:hover ul{display:contents}
+            
+            nav ul li{border-top:30px solid #7d6c86 ; background-color: #7d6c89;width: 22em;}
+            
+            nav ul li:hover{background-color: #FFFF;}
+            
+            a {text-decoration: none}
+            
+            
+            .center {
+                margin: auto;
+                width: 50%;
+                border: 5px;
+            padding: 10px;
+            } 
+            p{
+                color:#FFFFFF; 
+                font-style:Serif, Monospace; 
+                text-align: inherit;
+            }
+  p.footer{
+                color:black; 
+                font-style:Serif, Monospace; 
+                text-align: inherit;
+            }
+         span { 
+            display: table-cell; 
+            padding: 0 4px 0 93px; 
+        } 
+            span.iqama{
+                display: table-cell; 
+            padding: 0 4px 0 35px; 
+            }
+            span.select { 
+            display: table-cell; 
+            padding: 0 4px 0 73px;  
+            
+        }
+            span.phone{
+                display: table-cell; 
+            padding: 0 4px 0 52px; 
+            }
+            input.format{
+                width: 165pt;
+                height: 22pt;
+            }
+            label.size{
+                font-size: 20px;
+            }
+     #block1
+{
+    margin: 10px 20px;
+    padding: 20px;
+    width: 400px;
+    float: left;
+}
+          #block2
+{
+    background-color: #F5F5F5;
+    margin: 10px 20px;
+    padding: 20px;
+    width: 180px;
+    margin-left:400px;
+}
+ 
+.welcome-user {
+    position: relative;
+    bottom: 40px;
+    font-weight: bold;
+}
+
+
